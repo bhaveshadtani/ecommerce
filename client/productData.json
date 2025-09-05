@@ -1,0 +1,178 @@
+[
+  {
+    "image": "https://images.unsplash.com/photo-1528701800489-98ac6a1b9c51?auto=format&fit=crop&w=400&q=80",
+    "title": "Men's Running Shoes",
+    "description": "Nike lightweight running shoes with breathability and comfort.",
+    "category": "Men",
+    "brand": "Nike",
+    "price": 120,
+    "salePrice": 99,
+    "totalStock": 50,
+    "averageReview": 4.6
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1519741491527-c0865c5bdb15?auto=format&fit=crop&w=400&q=80",
+    "title": "Women’s Golf Shoes",
+    "description": "Adidas golf shoes with waterproof exterior and firm grip.",
+    "category": "Women",
+    "brand": "Adidas",
+    "price": 140,
+    "salePrice": 119,
+    "totalStock": 40,
+    "averageReview": 4.5
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1508609349937-5ec4ae374ebf?auto=format&fit=crop&w=400&q=80",
+    "title": "Kids’ School Sneakers",
+    "description": "Durable Puma sneakers for daily use by active kids.",
+    "category": "Kids",
+    "brand": "Puma",
+    "price": 55,
+    "salePrice": 45,
+    "totalStock": 80,
+    "averageReview": 4.4
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=400&q=80",
+    "title": "Levi's Leather Belt",
+    "description": "Classic Levi's leather belt perfect for formal and casual wear.",
+    "category": "Accessories",
+    "brand": "Levi's",
+    "price": 45,
+    "salePrice": 39,
+    "totalStock": 60,
+    "averageReview": 4.3
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1503602642458-232111445657?auto=format&fit=crop&w=400&q=80",
+    "title": "Zara Women Sandals",
+    "description": "Zara stylish sandals perfect for summer wear.",
+    "category": "Footwear",
+    "brand": "Zara",
+    "price": 80,
+    "salePrice": 65,
+    "totalStock": 45,
+    "averageReview": 4.2
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1485965120184-e220f721d03e?auto=format&fit=crop&w=400&q=80",
+    "title": "H&M Casual Sneakers",
+    "description": "Casual canvas sneakers from H&M suitable for all-day comfort.",
+    "category": "Men",
+    "brand": "H&M",
+    "price": 60,
+    "salePrice": 49,
+    "totalStock": 70,
+    "averageReview": 4.1
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1508609349937-5ec4ae374ebf?auto=format&fit=crop&w=400&q=80",
+    "title": "Kids’ School Sneakers",
+    "description": "Durable Puma sneakers for daily use by active kids.",
+    "category": "Kids",
+    "brand": "Puma",
+    "price": 55,
+    "salePrice": 45,
+    "totalStock": 80,
+    "averageReview": 4.4
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1556911073-52527ac437f5?auto=format&fit=crop&w=400&q=80",
+    "title": "Kids’ Running Shoes",
+    "description": "Lightweight and breathable running shoes for kids.",
+    "category": "Kids",
+    "brand": "Nike",
+    "price": 65,
+    "salePrice": 50,
+    "totalStock": 90,
+    "averageReview": 4.5
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1539874754764-5a9655915f1f?auto=format&fit=crop&w=400&q=80",
+    "title": "Colorful Kids’ Sandals",
+    "description": "Comfortable sandals ideal for summer outings.",
+    "category": "Kids",
+    "brand": "Adidas",
+    "price": 40,
+    "salePrice": 35,
+    "totalStock": 60,
+    "averageReview": 4.3
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1530699377914-75df3d6b0404?auto=format&fit=crop&w=400&q=80",
+    "title": "Kids’ Casual Shoes",
+    "description": "Perfect casual shoes for kids’ everyday wear.",
+    "category": "Kids",
+    "brand": "Zara",
+    "price": 50,
+    "salePrice": 42,
+    "totalStock": 75,
+    "averageReview": 4.2
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1587316745621-3757c7076f3b?auto=format&fit=crop&w=400&q=80",
+    "title": "Kids’ Winter Boots",
+    "description": "Warm and durable boots for cold weather.",
+    "category": "Kids",
+    "brand": "H&M",
+    "price": 70,
+    "salePrice": 60,
+    "totalStock": 50,
+    "averageReview": 4.6
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1574180045827-681f8a1a9622?auto=format&fit=crop&w=400&q=80",
+    "title": "Kids’ Sports Shoes",
+    "description": "Supportive sports shoes designed for active kids.",
+    "category": "Kids",
+    "brand": "Nike",
+    "price": 75,
+    "salePrice": 65,
+    "totalStock": 55,
+    "averageReview": 4.7
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1508253578933-fdd108e18db3?auto=format&fit=crop&w=400&q=80",
+    "title": "Kids’ School Backpack",
+    "description": "Spacious and durable backpack for school essentials.",
+    "category": "Kids",
+    "brand": "Levi's",
+    "price": 45,
+    "salePrice": 40,
+    "totalStock": 85,
+    "averageReview": 4.5
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1508253578933-fdd108e18db3?auto=format&fit=crop&w=400&q=80",
+    "title": "Kids’ Raincoat",
+    "description": "Lightweight raincoat with waterproof fabric.",
+    "category": "Kids",
+    "brand": "Adidas",
+    "price": 30,
+    "salePrice": 25,
+    "totalStock": 70,
+    "averageReview": 4.1
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?auto=format&fit=crop&w=400&q=80",
+    "title": "Kids’ Graphic T-shirt",
+    "description": "Bright and fun graphic tee for casual wear.",
+    "category": "Kids",
+    "brand": "H&M",
+    "price": 20,
+    "salePrice": 15,
+    "totalStock": 100,
+    "averageReview": 4.3
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1542068829-1115f7259450?auto=format&fit=crop&w=400&q=80",
+    "title": "Kids’ Sneakers",
+    "description": "Trendy sneakers with cushioned soles.",
+    "category": "Kids",
+    "brand": "Puma",
+    "price": 55,
+    "salePrice": 48,
+    "totalStock": 65,
+    "averageReview": 4.4
+  }
+]
