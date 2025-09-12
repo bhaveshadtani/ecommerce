@@ -13,7 +13,7 @@ export const createNewOrder = createAsyncThunk(
   "/order/createNewOrder",
   async (orderData) => {
     const response = await axios.post(
-      "http://localhost:5000/api/shop/order/create",
+      `${process.env.NEXT_PUBLIC_API_URL}/shop/order/create`,
       orderData
     );
 
@@ -25,7 +25,7 @@ export const getAllOrdersByUserId = createAsyncThunk(
   "/order/getAllOrdersByUserId",
   async (userId) => {
     const response = await axios.get(
-      `http://localhost:5000/api/shop/order/list/${userId}`
+      `${process.env.NEXT_PUBLIC_API_URL}/shop/order/list/${userId}`
     );
 
     return response.data;
@@ -36,7 +36,7 @@ export const getOrderDetails = createAsyncThunk(
   "/order/getOrderDetails",
   async (id) => {
     const response = await axios.get(
-      `http://localhost:5000/api/shop/order/details/${id}`
+      `${process.env.NEXT_PUBLIC_API_URL}/shop/order/details/${id}`
     );
 
     return response.data;
