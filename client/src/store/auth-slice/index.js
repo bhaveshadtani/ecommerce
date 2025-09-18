@@ -7,7 +7,7 @@ const initialState = {
   user: null,
 };
 const apiUrl = process.env.NEXT_PUBLIC_API_URL;
-console.log(apiUrl, "apiUrl");
+console.log(apiUrl, process.env, import.meta.env.NEXT_PUBLIC_API_URL, "apiUrl");
 export const registerUser = createAsyncThunk(
   "/auth/register",
 
