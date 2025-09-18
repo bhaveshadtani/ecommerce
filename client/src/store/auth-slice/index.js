@@ -1,3 +1,4 @@
+import { API_URL } from "@/helper/constants";
 import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
 import axios from "axios";
 
@@ -6,8 +7,6 @@ const initialState = {
   isLoading: true,
   user: null,
 };
-const API_URL = import.meta.env.VITE_APP_API_URL;
-console.log(API_URL, "API_URL");
 export const registerUser = createAsyncThunk(
   "/auth/register",
 

@@ -1,3 +1,4 @@
+import { API_URL } from "@/helper/constants";
 import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
 import axios from "axios";
 
@@ -15,9 +16,7 @@ export const fetchAllFilteredProducts = createAsyncThunk(
       sortBy: sortParams,
     });
 
-    const result = await axios.get(
-      `${process.env.NEXT_PUBLIC_API_URL}/shop/products/get?${query}`
-    );
+    const result = await axios.get(`${API_URL}/shop/products/get?${query}`);
 
     return result?.data;
   }
@@ -26,9 +25,7 @@ export const fetchAllFilteredProducts = createAsyncThunk(
 export const fetchProductDetails = createAsyncThunk(
   "/products/fetchProductDetails",
   async (id) => {
-    const result = await axios.get(
-      `${process.env.NEXT_PUBLIC_API_URL}/shop/products/get/${id}`
-    );
+    const result = await axios.get(`${API_URL}/shop/products/get/${id}`);
 
     return result?.data;
   }

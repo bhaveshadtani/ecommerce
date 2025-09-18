@@ -1,3 +1,4 @@
+import { API_URL } from "@/helper/constants";
 import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
 import axios from "axios";
 
@@ -9,9 +10,7 @@ const initialState = {
 export const getAllOrdersForAdmin = createAsyncThunk(
   "/order/getAllOrdersForAdmin",
   async () => {
-    const response = await axios.get(
-      `${process.env.NEXT_PUBLIC_API_URL}/admin/orders/get`
-    );
+    const response = await axios.get(`${API_URL}/admin/orders/get`);
 
     return response.data;
   }
@@ -20,9 +19,7 @@ export const getAllOrdersForAdmin = createAsyncThunk(
 export const getOrderDetailsForAdmin = createAsyncThunk(
   "/order/getOrderDetailsForAdmin",
   async (id) => {
-    const response = await axios.get(
-      `${process.env.NEXT_PUBLIC_API_URL}/admin/orders/details/${id}`
-    );
+    const response = await axios.get(`${API_URL}/admin/orders/details/${id}`);
 
     return response.data;
   }
@@ -31,12 +28,9 @@ export const getOrderDetailsForAdmin = createAsyncThunk(
 export const updateOrderStatus = createAsyncThunk(
   "/order/updateOrderStatus",
   async ({ id, orderStatus }) => {
-    const response = await axios.put(
-      `${process.env.NEXT_PUBLIC_API_URL}/admin/orders/update/${id}`,
-      {
-        orderStatus,
-      }
-    );
+    const response = await axios.put(`${API_URL}/admin/orders/update/${id}`, {
+      orderStatus,
+    });
 
     return response.data;
   }
