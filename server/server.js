@@ -17,12 +17,7 @@ const shopReviewRouter = require("./routes/shop/review-routes");
 const commonFeatureRouter = require("./routes/common/feature-routes");
 
 mongoose
-  .connect(process.env.MONGO_URL, {
-  useNewUrlParser: true,
-  useUnifiedTopology: true,
-  serverSelectionTimeoutMS: 50000,  // Adjust timeout to 50 seconds (default is 30)
-  socketTimeoutMS: 45000,          // Adjust socket timeout to 45 seconds
-})
+  .connect(process.env.MONGO_URL)
   .then(() => console.log("MongoDB connected"))
   .catch((error) => console.log('Database connection error:', error));
 
