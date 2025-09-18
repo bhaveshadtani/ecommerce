@@ -6,14 +6,14 @@ const initialState = {
   isLoading: true,
   user: null,
 };
-
-console.log(`${process.env.NEXT_PUBLIC_API_URL}/auth/login`, "YRL");
+const apiUrl = process.env.NEXT_PUBLIC_API_URL;
+console.log(apiUrl, "apiUrl");
 export const registerUser = createAsyncThunk(
   "/auth/register",
 
   async (formData) => {
     const response = await axios.post(
-      `${process.env.NEXT_PUBLIC_API_URL}/auth/register`,
+      `${apiUrl}/auth/register`,
       formData,
       {
         withCredentials: true,
