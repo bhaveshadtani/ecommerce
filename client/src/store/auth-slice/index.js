@@ -6,14 +6,14 @@ const initialState = {
   isLoading: true,
   user: null,
 };
-const apiUrl = process.env.NEXT_PUBLIC_API_URL;
-console.log(apiUrl, process.env, import.meta.env.NEXT_PUBLIC_API_URL, "apiUrl");
+const API_URL = import.meta.env.VITE_APP_API_URL;
+console.log(API_URL, "API_URL");
 export const registerUser = createAsyncThunk(
   "/auth/register",
 
   async (formData) => {
     const response = await axios.post(
-      `${apiUrl}/auth/register`,
+      `${API_URL}/auth/register`,
       formData,
       {
         withCredentials: true,
@@ -26,10 +26,9 @@ export const registerUser = createAsyncThunk(
 
 export const loginUser = createAsyncThunk(
   "/auth/login",
-
-      // `${process.env.NEXT_PUBLIC_API_URL}/auth/login`,
+  
   async (formData) => {
-    const response = await axios.post('https://ecommerce-kqrk.onrender.com/api/auth/login',
+    const response = await axios.post(`${API_URL}/auth/login`,
       formData,
       {
         withCredentials: true,
@@ -45,7 +44,7 @@ export const logoutUser = createAsyncThunk(
 
   async () => {
     const response = await axios.post(
-      `${process.env.NEXT_PUBLIC_API_URL}/auth/logout`,
+      `${API_URL}/auth/logout`,
       {},
       {
         withCredentials: true,
@@ -61,7 +60,7 @@ export const checkAuth = createAsyncThunk(
 
   async () => {
     const response = await axios.get(
-      `${process.env.NEXT_PUBLIC_API_URL}/auth/check-auth`,
+      `${API_URL}/auth/check-auth`,
       {
         withCredentials: true,
         headers: {
