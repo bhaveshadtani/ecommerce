@@ -27,9 +27,9 @@ export const registerUser = createAsyncThunk(
 export const loginUser = createAsyncThunk(
   "/auth/login",
 
+      // `${process.env.NEXT_PUBLIC_API_URL}/auth/login`,
   async (formData) => {
-    const response = await axios.post(
-      `${process.env.NEXT_PUBLIC_API_URL}/auth/login`,
+    const response = await axios.post('https://ecommerce-kqrk.onrender.com/api/auth/login',
       formData,
       {
         withCredentials: true,
